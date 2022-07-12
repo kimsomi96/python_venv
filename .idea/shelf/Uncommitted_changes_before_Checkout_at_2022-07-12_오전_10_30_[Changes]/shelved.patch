@@ -1,0 +1,32 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/../PycharmProjects/python_board/.idea/python_board.iml\" filepath=\"$PROJECT_DIR$/../PycharmProjects/python_board/.idea/python_board.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/python_venv.iml\" filepath=\"$PROJECT_DIR$/.idea/python_venv.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	
++++ b/.idea/modules.xml	
+@@ -2,7 +2,6 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/../PycharmProjects/python_board/.idea/python_board.iml" filepath="$PROJECT_DIR$/../PycharmProjects/python_board/.idea/python_board.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/python_venv.iml" filepath="$PROJECT_DIR$/.idea/python_venv.iml" />
+     </modules>
+   </component>
+Index: .idea/python_venv.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <excludeFolder url=\"file://$MODULE_DIR$/flaskproject\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.9 (python_venv)\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"module\" module-name=\"python_board\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/.idea/python_venv.iml b/.idea/python_venv.iml
+--- a/.idea/python_venv.iml	
++++ b/.idea/python_venv.iml	
+@@ -6,6 +6,5 @@
+     </content>
+     <orderEntry type="jdk" jdkName="Python 3.9 (python_venv)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="module" module-name="python_board" />
+   </component>
+ </module>
+\ No newline at end of file
